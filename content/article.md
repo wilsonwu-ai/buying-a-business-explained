@@ -69,9 +69,9 @@ A public guide for self-funded searchers lands in the same zone: a 10% to 15% pr
 
 **5. A lower price often beats raising more money.** Cases C and D end in the same place for the bank: a $4.08M SBA loan, a $640K yearly payment and a 1.25x DSCR. In case C the buyer pays $5.00M, puts in $262K, brings in $647K from investors and owns 74.1%. In case D the buyer pays $4.28M, puts in $227K, raises nothing and owns 100%. Sell after 5 years at the same multiple with flat earnings, and the buyer gets back $1.53M in case C against $2.25M in case D. The investors in case C get $1.40M back on their $647K, a 23.8% IRR, short of the 30% to 35% they target. A seller won't always say yes, but it's worth asking before you raise.
 
-### Thesis 1: electrical contractors
+### Thesis 1: industrial electrical contractors in New England
 
-I'm exploring two very different industries. The first is electrical contractors.
+I'm exploring two very different industries. The first is industrial electrical contractors: the firms that keep critical power running for hospitals, labs, plants and data centers.
 
 Nationally, the headline is data centers. The US Bureau of Labor Statistics expects electrician jobs to rise 9% between 2025 and 2035, much faster than the average job, with about 72,700 openings each year. It counts AI and data centers among the reasons ([BLS](https://www.bls.gov/ooh/construction-and-extraction/electricians.htm)).
 
@@ -79,7 +79,9 @@ I went in believing contracts were signed out to 2035. That's only partly right.
 
 I know the topic feels taboo, partly because the AI boom may not last: the Bank of England has warned that lenders who funded data centers with debt could take big losses if AI markets drop sharply ([Network World](https://www.networkworld.com/article/4079786/ai-data-center-building-boom-risks-fueling-future-debt-bust-bank-warns.html)), and one research firm expected 30% to 50% of the large data centers planned for 2026 to open late ([Latitude Media](https://www.latitudemedia.com/news/up-to-half-of-the-worlds-data-centers-may-be-delayed-this-year/)).
 
-New England is different. ISO New England's 2026 forecast counts only two proposed large-load projects (huge new power users, like data centers), 285 MW (megawatts) at most ([ISO Newswire](https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/)). Here, the steadier story is electrification. ISO New England expects the region's electricity use to grow about 9% over 10 years, mostly as heating and transportation switch to electric ([ISO New England](https://isonewswire.com/celt/)). What I'm still testing: whether a small New England electrical contractor gets more work from data centers, from electrification, or from neither.
+New England is a different market. It already has about 100 data centers, according to the Data Center Coalition, an industry group quoted by [WBUR](https://www.wbur.org/news/2026/10/22/new-england-ai-data-centers-explainer), with the largest cluster around Greater Boston. Most are colocation sites, buildings that rent space, power and cooling to many companies, and they are small by national standards: some use under 1 megawatt (MW), the larger ones up to about 40 MW, and the region has no large AI training campuses yet. New giants are rare too: ISO New England's 2026 forecast counts only two proposed large-load projects (huge new power users), 285 MW at most ([ISO Newswire](https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/)). The steadier growth story is electrification: ISO New England expects the region's electricity use to grow about 9% over 10 years, mostly as heating and transportation switch to electric ([ISO New England](https://isonewswire.com/celt/)).
+
+So my target is narrower: an industrial electrical contractor that already maintains critical power for hospitals, labs and plants. Think backup generators, UPS systems (batteries that keep the power on until the generators start), transfer switches and switchgear testing. That work pays with or without an AI boom. The region's existing data centers depend on the same equipment, so they are upside, not the bet. The skills overlap, but data centers raise the bar on redundancy, maintenance without downtime and vendor qualifications, so I'd plan to add someone with data-center operations experience. What I'm still testing: which contractors hold these maintenance contracts today, how much of their revenue repeats every year, and whether a small one wants to sell.
 
 ### Thesis 2: decorated apparel in New England
 
@@ -107,6 +109,7 @@ That's where I am. Thank you to the Searchfunder community, and to the bankers w
 - [Quanta Services, Q3 2026 release](https://www.sec.gov/Archives/edgar/data/0001050915/000119312526436949/d77812dex991.htm)
 - [Network World, Bank of England warning](https://www.networkworld.com/article/4079786/ai-data-center-building-boom-risks-fueling-future-debt-bust-bank-warns.html)
 - [Latitude Media, data-center delays](https://www.latitudemedia.com/news/up-to-half-of-the-worlds-data-centers-may-be-delayed-this-year/)
+- [WBUR, why New England has no large AI data centers](https://www.wbur.org/news/2026/10/22/new-england-ai-data-centers-explainer)
 - [ISO Newswire, large-load forecast](https://isonewswire.com/2026/05/18/iso-ne-establishes-forecast-framework-for-data-centers-other-large-loads/)
 - [ISO New England, CELT forecast](https://isonewswire.com/celt/)
 - [PPAI, 2025 distributor sales](https://www.ppai.org/media-hub/ppai-research-u-s-distributor-sales-reached-new-height-in-2025-but-hampered-by-volatility/)
