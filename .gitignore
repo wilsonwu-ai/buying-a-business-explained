@@ -1,0 +1,8 @@
+# private working files: never publish
+brief/
+.DS_Store
+*.wav
+video-build/
+__pycache__/
+content/searchfunder-post.md
+site/

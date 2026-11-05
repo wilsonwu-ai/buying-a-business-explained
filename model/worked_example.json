@@ -1,0 +1,314 @@
+{
+  "inputs": {
+    "ebitda": 1000000,
+    "revenue": 5000000,
+    "tax_share_of_ebitda": 0.1,
+    "capex_share_of_revenue": 0.02,
+    "closing_and_reserve": 250000,
+    "sba_rate": 0.0975,
+    "sba_years": 10,
+    "standby_accrual": 0.06,
+    "injection": 0.1,
+    "own_cash": 0.05,
+    "dscr_floor": 1.25,
+    "sba_cap": 5000000,
+    "pref": 0.1,
+    "step_up": 2.0,
+    "hold_years": 5
+  },
+  "cfads": 800000.0,
+  "A_4x_no_investors": {
+    "price": 4000000,
+    "multiple": 4.0,
+    "project_cost": 4250000,
+    "buyer_cash": 212500.0,
+    "standby_seller_note": 212500.0,
+    "investor_equity": 0.0,
+    "sba_loan": 3825000.0,
+    "sba_share_of_project": 0.9,
+    "annual_sba_payment": 600235.411707356,
+    "cfads": 800000.0,
+    "dscr": 1.3328104013797157,
+    "cash_left_after_payment": 199764.588292644,
+    "sba_cap_ok": true
+  },
+  "B_5x_no_investors": {
+    "price": 5000000,
+    "multiple": 5.0,
+    "project_cost": 5250000,
+    "buyer_cash": 262500.0,
+    "standby_seller_note": 262500.0,
+    "investor_equity": 0.0,
+    "sba_loan": 4725000.0,
+    "sba_share_of_project": 0.9,
+    "annual_sba_payment": 741467.2732855574,
+    "cfads": 800000.0,
+    "dscr": 1.0789417534978651,
+    "cash_left_after_payment": 58532.7267144426,
+    "sba_cap_ok": true
+  },
+  "C_5x_with_investors": {
+    "price": 5000000,
+    "multiple": 5.0,
+    "project_cost": 5250000,
+    "buyer_cash": 262500.0,
+    "standby_seller_note": 262500.0,
+    "investor_equity": 646600.1717780698,
+    "sba_loan": 4078399.82822193,
+    "sba_share_of_project": 0.7768380625184629,
+    "annual_sba_payment": 640000.0,
+    "cfads": 800000.0,
+    "dscr": 1.25,
+    "cash_left_after_payment": 160000.0,
+    "sba_cap_ok": true,
+    "investor_equity_needed": 646600.1717780698
+  },
+  "D_price_that_works_no_investors": {
+    "price": 4281555.364691033,
+    "multiple": 4.281555364691033,
+    "project_cost": 4531555.364691033,
+    "buyer_cash": 226577.76823455165,
+    "standby_seller_note": 226577.76823455165,
+    "investor_equity": 0.0,
+    "sba_loan": 4078399.8282219293,
+    "sba_share_of_project": 0.8999999999999999,
+    "annual_sba_payment": 639999.9999999999,
+    "cfads": 800000.0,
+    "dscr": 1.2500000000000002,
+    "cash_left_after_payment": 160000.00000000012,
+    "sba_cap_ok": true
+  },
+  "cash_to_max_project": {
+    "100000": 2000000.0,
+    "250000": 5000000.0,
+    "500000": 10000000.0
+  },
+  "paydown_4x_flat": [
+    {
+      "year": 0,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 3825000.0,
+      "standby_note_balance": 212500.0,
+      "owner_equity": -37500.0
+    },
+    {
+      "year": 1,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 3587264.5221852674,
+      "standby_note_balance": 225250.0,
+      "owner_equity": 187485.47781473259
+    },
+    {
+      "year": 2,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 3325285.441311194,
+      "standby_note_balance": 238765.00000000003,
+      "owner_equity": 435949.5586888059
+    },
+    {
+      "year": 3,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 3036590.4621414873,
+      "standby_note_balance": 253090.90000000002,
+      "owner_equity": 710318.6378585127
+    },
+    {
+      "year": 4,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 2718455.1716453,
+      "standby_note_balance": 268276.35400000005,
+      "owner_equity": 1013268.4743547
+    },
+    {
+      "year": 5,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 2367877.328725497,
+      "standby_note_balance": 284372.9352400001,
+      "owner_equity": 1347749.7360345032
+    },
+    {
+      "year": 6,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 1981548.5320848888,
+      "standby_note_balance": 301435.31135440007,
+      "owner_equity": 1717016.156560711
+    },
+    {
+      "year": 7,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 1555822.9988602395,
+      "standby_note_balance": 319521.4300356641,
+      "owner_equity": 2124655.5711040962
+    },
+    {
+      "year": 8,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 1086683.1593881734,
+      "standby_note_balance": 338692.715837804,
+      "owner_equity": 2574624.1247740225
+    },
+    {
+      "year": 9,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 569701.74342096,
+      "standby_note_balance": 359014.27878807223,
+      "owner_equity": 3071283.977790968
+    },
+    {
+      "year": 10,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 0.0,
+      "standby_note_balance": 380555.1355153566,
+      "owner_equity": 3619444.8644846436
+    }
+  ],
+  "paydown_4x_growth5": [
+    {
+      "year": 0,
+      "ebitda": 1000000.0,
+      "company_value": 4000000.0,
+      "sba_balance": 3825000.0,
+      "standby_note_balance": 212500.0,
+      "owner_equity": -37500.0
+    },
+    {
+      "year": 1,
+      "ebitda": 1050000.0,
+      "company_value": 4200000.0,
+      "sba_balance": 3587264.5221852674,
+      "standby_note_balance": 225250.0,
+      "owner_equity": 387485.4778147326
+    },
+    {
+      "year": 2,
+      "ebitda": 1102500.0,
+      "company_value": 4410000.0,
+      "sba_balance": 3325285.441311194,
+      "standby_note_balance": 238765.00000000003,
+      "owner_equity": 845949.5586888059
+    },
+    {
+      "year": 3,
+      "ebitda": 1157625.0000000002,
+      "company_value": 4630500.000000001,
+      "sba_balance": 3036590.4621414873,
+      "standby_note_balance": 253090.90000000002,
+      "owner_equity": 1340818.6378585137
+    },
+    {
+      "year": 4,
+      "ebitda": 1215506.2500000002,
+      "company_value": 4862025.000000001,
+      "sba_balance": 2718455.1716453,
+      "standby_note_balance": 268276.35400000005,
+      "owner_equity": 1875293.474354701
+    },
+    {
+      "year": 5,
+      "ebitda": 1276281.5625000005,
+      "company_value": 5105126.250000002,
+      "sba_balance": 2367877.328725497,
+      "standby_note_balance": 284372.9352400001,
+      "owner_equity": 2452875.986034505
+    },
+    {
+      "year": 6,
+      "ebitda": 1340095.6406250005,
+      "company_value": 5360382.562500002,
+      "sba_balance": 1981548.5320848888,
+      "standby_note_balance": 301435.31135440007,
+      "owner_equity": 3077398.719060713
+    },
+    {
+      "year": 7,
+      "ebitda": 1407100.4226562504,
+      "company_value": 5628401.690625002,
+      "sba_balance": 1555822.9988602395,
+      "standby_note_balance": 319521.4300356641,
+      "owner_equity": 3753057.261729098
+    },
+    {
+      "year": 8,
+      "ebitda": 1477455.443789063,
+      "company_value": 5909821.775156252,
+      "sba_balance": 1086683.1593881734,
+      "standby_note_balance": 338692.715837804,
+      "owner_equity": 4484445.899930275
+    },
+    {
+      "year": 9,
+      "ebitda": 1551328.2159785163,
+      "company_value": 6205312.863914065,
+      "sba_balance": 569701.74342096,
+      "standby_note_balance": 359014.27878807223,
+      "owner_equity": 5276596.841705033
+    },
+    {
+      "year": 10,
+      "ebitda": 1628894.626777442,
+      "company_value": 6515578.507109768,
+      "sba_balance": 0.0,
+      "standby_note_balance": 380555.1355153566,
+      "owner_equity": 6135023.371594411
+    }
+  ],
+  "returns_C_flat": {
+    "investor_common": 0.2586400687112279,
+    "buyer_common": 0.7413599312887721,
+    "buyer_cash_in": 262500.0,
+    "buyer_cash_back": 1526779.2665003557,
+    "buyer_irr": 0.42209755315267594,
+    "buyer_moic": 5.816301967620403,
+    "investor_cash_in": 646600.1717780698,
+    "investor_cash_back": 1397191.2930463976,
+    "investor_irr": 0.23791519748020196,
+    "investor_moic": 2.1608272840452485
+  },
+  "returns_C_growth5": {
+    "investor_common": 0.2586400687112279,
+    "buyer_common": 0.7413599312887721,
+    "buyer_cash_in": 262500.0,
+    "buyer_cash_back": 3073568.042720207,
+    "buyer_irr": 0.6487676713556689,
+    "buyer_moic": 11.708830638934122,
+    "investor_cash_in": 646600.1717780698,
+    "investor_cash_back": 1873340.579326549,
+    "investor_irr": 0.3613834553836942,
+    "investor_moic": 2.8972163341297854
+  },
+  "returns_D_flat": {
+    "investor_common": 0.0,
+    "buyer_common": 1.0,
+    "buyer_cash_in": 226577.76823455165,
+    "buyer_cash_back": 2253597.9735907856,
+    "buyer_irr": 0.908470399356412,
+    "buyer_moic": 9.946244908096533
+  },
+  "returns_D_growth5": {
+    "investor_common": 0.0,
+    "buyer_common": 1.0,
+    "buyer_cash_in": 226577.76823455165,
+    "buyer_cash_back": 4078043.0296778847,
+    "buyer_irr": 1.2520817628929612,
+    "buyer_moic": 17.998425271169253
+  },
+  "returns_A_flat": {
+    "investor_common": 0.0,
+    "buyer_common": 1.0,
+    "buyer_cash_in": 212500.0,
+    "buyer_cash_back": 2346572.677497723,
+    "buyer_irr": 1.089877870251311,
+    "buyer_moic": 11.042694952930463
+  }
+}
