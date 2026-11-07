@@ -1,20 +1,20 @@
 /* Buying a Business, Explained. Tokens come from brief/design-tokens.md. */
 :root{
-  --paper:#F6F3EC;--surface:#FFFFFF;--ink:#10202F;--muted:#5B6672;--line:#E2DDD2;
-  --sba:#2F5DA8;--seller:#B07D2B;--cash:#1E7F55;--inv:#C2552D;
-  --pass:#1E7F55;--fail:#B42318;--wash:#FFF2CC;
-  --on-sba:#FFFFFF;--on-seller:#10202F;--on-cash:#FFFFFF;--on-inv:#FFFFFF;--on-pass:#FFFFFF;--on-fail:#FFFFFF;
-  --pass-wash:rgba(30,127,85,.12);--fail-wash:rgba(180,35,24,.10);--sba-wash:rgba(47,93,168,.16);--ghost:rgba(194,85,45,.14);
-  --serif:Fraunces,Georgia,"Times New Roman",serif;
-  --sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --paper:#F5F7FA;--surface:#FFFFFF;--ink:#14212F;--muted:#4C5A6B;--line:#D5DCE5;
+  --sba:#0A2942;--seller:#A87400;--cash:#1B6B45;--inv:#A8481B;
+  --pass:#1B6B45;--fail:#B3261E;--wash:#FBF2DC;
+  --on-sba:#FFFFFF;--on-seller:#14212F;--on-cash:#FFFFFF;--on-inv:#FFFFFF;--on-pass:#FFFFFF;--on-fail:#FFFFFF;
+  --pass-wash:rgba(27, 107, 69, .12);--fail-wash:rgba(179, 38, 30, .10);--sba-wash:rgba(10, 41, 66, .16);--ghost:rgba(168, 72, 27, .14);
+  --serif:"Benton Sans", BentonSans, "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --sans:"Benton Sans", BentonSans, "Public Sans", "Helvetica Neue", Arial, sans-serif;
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --paper:#0E1620;--surface:#16212D;--ink:#EEF1F4;--muted:#9AA6B2;--line:#26323F;
-    --sba:#6E9BE0;--seller:#E0B060;--cash:#4CC38A;--inv:#F08A62;
-    --pass:#4CC38A;--fail:#F07167;--wash:rgba(224,176,96,.16);
-    --on-sba:#0E1620;--on-seller:#0E1620;--on-cash:#0E1620;--on-inv:#0E1620;--on-pass:#0E1620;--on-fail:#0E1620;
-    --pass-wash:rgba(76,195,138,.16);--fail-wash:rgba(240,113,103,.16);--sba-wash:rgba(110,155,224,.20);--ghost:rgba(240,138,98,.18);
+    --paper:#081420;--surface:#0E2238;--ink:#E8EDF3;--muted:#9DAEC0;--line:#22384F;
+    --sba:#A9C2E3;--seller:#E3B341;--cash:#5FC38A;--inv:#EE9264;
+    --pass:#5FC38A;--fail:#F27D74;--wash:rgba(227, 179, 65, .16);
+    --on-sba:#081420;--on-seller:#081420;--on-cash:#081420;--on-inv:#081420;--on-pass:#081420;--on-fail:#081420;
+    --pass-wash:rgba(95, 195, 138, .16);--fail-wash:rgba(242, 125, 116, .16);--sba-wash:rgba(169, 194, 227, .20);--ghost:rgba(238, 146, 100, .18);
   }
 }
 
@@ -268,7 +268,7 @@ input[type="range"]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;b
 .prose p,.prose li{line-height:1.65}
 .prose img,.prose figure{max-width:100%;height:auto}
 .prose hr{border:0;border-top:1px solid var(--line);margin:2em 0}
-.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:.05em .3em}
+.prose code{font-family:ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;font-size:.9em;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:.05em .3em}
 .prose pre{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
 .prose pre code{background:none;border:0;padding:0}
 .prose table,.copy table,#glossary table,#sources table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;font-size:16px;line-height:1.45;margin:1.5em 0;-webkit-overflow-scrolling:touch}
